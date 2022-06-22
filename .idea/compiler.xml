@@ -2,14 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="legou-common" />
+        <module name="legou-item-instance" />
         <module name="registry" />
         <module name="legou-core" />
-        <module name="legou-item-instance" />
+        <module name="legou-upload" />
         <module name="legou-item-service" />
         <module name="config" />
       </profile>
@@ -22,6 +24,7 @@
       <module name="legou-item-instance" target="1.8" />
       <module name="legou-item-service" target="1.8" />
       <module name="legou-parent" target="1.8" />
+      <module name="legou-upload" target="1.8" />
       <module name="registry" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -32,6 +35,7 @@
       <module name="legou-core" options="-parameters" />
       <module name="legou-item-instance" options="-parameters" />
       <module name="legou-item-service" options="-parameters" />
+      <module name="legou-upload" options="-parameters" />
       <module name="registry" options="-parameters" />
     </option>
   </component>

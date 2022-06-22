@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/legou-item/legou-item-instance/legou-item-instance.iml" filepath="$PROJECT_DIR$/legou-item/legou-item-instance/legou-item-instance.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-item/legou-item-service/legou-item-service.iml" filepath="$PROJECT_DIR$/legou-item/legou-item-service/legou-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-parent.iml" filepath="$PROJECT_DIR$/legou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/legou-upload/legou-upload.iml" filepath="$PROJECT_DIR$/legou-upload/legou-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/registry/registry.iml" filepath="$PROJECT_DIR$/registry/registry.iml" />
     </modules>
   </component>
