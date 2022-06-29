@@ -9,6 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @Des 新职课商城项目
@@ -33,4 +34,12 @@ public class CategoryServiceImpl extends CrudServiceImpl<Category> implements IC
 
         return getBaseMapper().selectList(queryWrapper);
     }
+
+    @Override
+    public List<String> selectNamesByIds(List<Long> ids) {
+        QueryWrapper<Category> queryWrapper = Wrappers.<Category>query().in("id_", ids);
+        return getBaseMapper().selectList(queryWrapper).stream().map(item -> item.getTitle()).collect(Collectors.toList());
+    }
+
+
 }

@@ -15,8 +15,10 @@
 - legou-common - 工具类
 - legou-core 通用基类,controller/service/dao 通用方法
 - legou-item 商品工程
+- legou-search 搜索工程
 
 ## Change Logs
+- 2022年6月29日18:05:24 [ADD] 搜索服务搭建
 - 2022年6月23日18:43:37 [ADD] 商品管理
 - 2022年6月22日20:19:34 [ADD] 规格参数 API
 - 2022年6月22日11:57:45 [ADD] 文件上传微服务(FastDFS)

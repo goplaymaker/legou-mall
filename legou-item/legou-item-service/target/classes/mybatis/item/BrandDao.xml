@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lxs.legou.item.dao.BrandDao">
 
-    <select id="selectByPage" resultType="com.lxs.legou.item.po.Brand">
+    <select id="selectByPage" resultType="Brand">
         select
         *
         from
@@ -31,7 +31,7 @@
       )
    </insert>
 
-    <select id="selectCategoryByBrand" resultType="com.lxs.legou.item.po.Category">
+    <select id="selectCategoryByBrand" resultType="Category">
       SELECT
          a.id_ AS "id",
          a.title_ AS "title",

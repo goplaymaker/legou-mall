@@ -7,7 +7,6 @@ import com.lxs.legou.item.po.Spu;
 import com.lxs.legou.item.service.ISkuService;
 import com.lxs.legou.item.service.ISpuDetailService;
 import com.lxs.legou.item.service.ISpuService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,7 +16,6 @@ import org.springframework.transaction.annotation.Transactional;
  * @Author 雪松
  * @Date 2020/11/3 14:29
  */
-@Slf4j
 @Service
 public class SpuServiceImpl extends CrudServiceImpl<Spu> implements ISpuService {
 
@@ -33,7 +31,6 @@ public class SpuServiceImpl extends CrudServiceImpl<Spu> implements ISpuService 
         //保存spu -> spu持久化产生主键属性
         this.saveOrUpdate(spu);
 
-        log.debug("spu is {}", spu.getId());
         //保存spuDetail
         if (null == spu.getSpuDetail().getId()) { //添加
             spu.getSpuDetail().setId(spu.getId());

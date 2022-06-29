@@ -3,12 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/legou-canal/legou-canal.iml" filepath="$PROJECT_DIR$/legou-canal/legou-canal.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-common/legou-common.iml" filepath="$PROJECT_DIR$/legou-common/legou-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-core/legou-core.iml" filepath="$PROJECT_DIR$/legou-core/legou-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-item/legou-item.iml" filepath="$PROJECT_DIR$/legou-item/legou-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-item/legou-item-instance/legou-item-instance.iml" filepath="$PROJECT_DIR$/legou-item/legou-item-instance/legou-item-instance.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-item/legou-item-service/legou-item-service.iml" filepath="$PROJECT_DIR$/legou-item/legou-item-service/legou-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-parent.iml" filepath="$PROJECT_DIR$/legou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/legou-search/legou-search.iml" filepath="$PROJECT_DIR$/legou-search/legou-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/legou-search/legou-search-instance/legou-search-instance.iml" filepath="$PROJECT_DIR$/legou-search/legou-search-instance/legou-search-instance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/legou-search/legou-search-service/legou-search-service.iml" filepath="$PROJECT_DIR$/legou-search/legou-search-service/legou-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/legou-upload/legou-upload.iml" filepath="$PROJECT_DIR$/legou-upload/legou-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/registry/registry.iml" filepath="$PROJECT_DIR$/registry/registry.iml" />
     </modules>

@@ -22,12 +22,11 @@
         </where>
     </select>
 
-    <resultMap id="groupMap" type="com.lxs.legou.item.po.SpecGroup">
+    <resultMap id="groupMap" type="specGroup">
         <id column="id_" property="id"></id>
-        <result property="cid" column="cid_"></result>
-        <result property="name" column="name_"></result>
-        <collection property="params" javaType="java.util.List" ofType="com.lxs.legou.item.po.SpecParam"
-                    select="com.lxs.legou.item.dao.SpecParamDao.findByGroupId" column="id_">
+        <result property="cid_" column="cid"></result>
+        <result property="name_" column="name"></result>
+        <collection property="params" javaType="java.util.List" ofType="specParam" select="com.lxs.legou.item.dao.SpecParamDao.findByGroupId" column="id_">
             <id column="id_" property="id"></id>
             <result column="cid_" property="cid"></result>
             <result column="group_id_" property="groupId"></result>

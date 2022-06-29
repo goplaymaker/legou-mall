@@ -8,22 +8,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="legou-common" />
+        <module name="legou-upload" />
+        <module name="legou-search-service" />
         <module name="legou-item-instance" />
         <module name="registry" />
         <module name="legou-core" />
-        <module name="legou-upload" />
         <module name="legou-item-service" />
+        <module name="legou-search-instance" />
         <module name="config" />
+        <module name="legou-canal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config" target="1.8" />
+      <module name="legou-canal" target="1.8" />
       <module name="legou-common" target="1.8" />
       <module name="legou-core" target="1.8" />
       <module name="legou-item" target="1.8" />
       <module name="legou-item-instance" target="1.8" />
       <module name="legou-item-service" target="1.8" />
       <module name="legou-parent" target="1.8" />
+      <module name="legou-search" target="1.8" />
+      <module name="legou-search-instance" target="1.8" />
+      <module name="legou-search-service" target="1.8" />
       <module name="legou-upload" target="1.8" />
       <module name="registry" target="1.8" />
     </bytecodeTargetLevel>
@@ -31,10 +38,14 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config" options="-parameters" />
+      <module name="legou-canal" options="-parameters" />
       <module name="legou-common" options="-parameters" />
       <module name="legou-core" options="-parameters" />
       <module name="legou-item-instance" options="-parameters" />
       <module name="legou-item-service" options="-parameters" />
+      <module name="legou-search" options="-parameters" />
+      <module name="legou-search-instance" options="-parameters" />
+      <module name="legou-search-service" options="-parameters" />
       <module name="legou-upload" options="-parameters" />
       <module name="registry" options="-parameters" />
     </option>
