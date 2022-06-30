@@ -14,7 +14,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
  * @author bing.zhang06@hand-china.com 2022/6/29 15:55
  **/
 @Data
-@Document(indexName = "goods_legou", type = "docs_legou", shards = 1, replicas = 0)
+@Document(indexName = "goods_legou3", type = "docs_legou3", shards = 1, replicas = 0)
 public class Goods {
     @Id
     private Long id; //spuId
